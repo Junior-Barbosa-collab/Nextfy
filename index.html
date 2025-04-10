@@ -1,48 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quickify - Tecnologia em Minutos</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quickify - Entrega tech ultra rápida</title>
   <style>
     body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      font-family: sans-serif;
-      background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #111827;
       color: white;
+      padding: 2rem;
       text-align: center;
     }
-    header {
-      padding: 3rem 1rem;
+
+    .container {
+      padding: 2rem;
+      text-align: center;
     }
+
     h1 {
       font-size: 2.5rem;
-      color: #00ffff;
+      margin-bottom: 1rem;
     }
+
     p {
-      max-width: 600px;
-      margin: 1rem auto;
       font-size: 1.2rem;
-      color: #cccccc;
+      margin-bottom: 2rem;
     }
+
     .btn {
-      margin-top: 2rem;
-      padding: 1rem 2rem;
-      background-color: #00ffff;
-      color: black;
+      background-color: #2563eb;
+      color: white;
       border: none;
-      border-radius: 10px;
+      padding: 1rem 2rem;
       font-size: 1rem;
+      border-radius: 8px;
       cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #1e40af;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      background-color: #ffffff;
+      border-top: 1px solid #e5e7eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+      background-color: #f1f1f1;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Quickify</h1>
-    <p>O seu app de entrega ultrarrápida de tecnologia. Compre, receba e monte seu produto em poucas horas. Conectamos lojas e entregadores de confiança a você!</p>
-    <button class="btn">Quero Saber Mais</button>
+    <h1>Bem-vindo ao Quickify</h1>
+    <p>Seu novo app de entrega tech rápida. Produtos de tecnologia nas suas mãos em poucas horas.</p>
+    <a href="#saiba-mais">
+      <button class="btn">Quero Saber Mais</button>
+    </a>
   </header>
+
+  <section id="saiba-mais">
+    <div class="container">
+      <h2>Como funciona o Quickify?</h2>
+      <p>
+        O Quickify conecta usuários a lojas de tecnologia próximas, entregando produtos como PCs, fones de ouvido, periféricos e acessórios no mesmo dia. 
+        Nosso diferencial é permitir agilidade e segurança com entregadores verificados e tecnologia de rastreamento em tempo real.
+      </p>
+      <p>
+        Com taxas justas para clientes e entregadores, parcerias com marcas e integrações com serviços da Awesomify, o Quickify é a solução ideal para quem busca inovação, velocidade e praticidade no mercado tech.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Quickify - Todos os direitos reservados.
+  </footer>
+
 </body>
 </html>
